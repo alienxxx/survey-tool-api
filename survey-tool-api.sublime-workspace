@@ -1,0 +1,322 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Ques",
+				"QuestionaireService\talias"
+			],
+			[
+				"Multip",
+				"MultipleChoiceSingleSelectQuestion\tclass"
+			],
+			[
+				"in",
+				"instanceof\tkeyword"
+			],
+			[
+				"from",
+				"fromJSONObject\tmethod"
+			],
+			[
+				"possibl",
+				"possible_answers"
+			],
+			[
+				"selectedDate",
+				"selectedDateTimeString"
+			],
+			[
+				"datet",
+				"datetime"
+			],
+			[
+				"datetim",
+				"datetime_value"
+			],
+			[
+				"lang",
+				"languagecode"
+			],
+			[
+				"lan",
+				"languagecode"
+			],
+			[
+				"lange",
+				"language"
+			],
+			[
+				"langu",
+				"language_button"
+			],
+			[
+				"langua",
+				"language_button_de"
+			],
+			[
+				"language",
+				"languagecode"
+			],
+			[
+				"jqu",
+				"jquery"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"jq",
+				"jquery"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"dista",
+				"distance"
+			],
+			[
+				"start",
+				"startValue"
+			],
+			[
+				"up",
+				"updateState"
+			],
+			[
+				"update",
+				"updateDistance"
+			],
+			[
+				"se",
+				"selectValue"
+			],
+			[
+				"Start",
+				"StartLocationDropDown"
+			],
+			[
+				"sele",
+				"selectedValue"
+			],
+			[
+				"value",
+				"selectedValue"
+			],
+			[
+				"options",
+				"optionsMaps"
+			],
+			[
+				"Location",
+				"LocationDropDown"
+			],
+			[
+				"Locatoin",
+				"LocationDropDown"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 212.0,
+		"last_filter": "Package Control: ts",
+		"selected_items":
+		[
+			[
+				"Package Control: ts",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/home/rolf/Development/survey-tool-api/package.json",
+		"/home/rolf/Development/survey-tool-api/survey-tool-api.sublime-project",
+		"/home/rolf/Development/survey-tool/src/styles.css",
+		"/home/rolf/Development/survey-tool/src/app/app.module.ts",
+		"/home/rolf/Development/survey-tool/package.json",
+		"/home/rolf/Development/survey-tool/src/app/app.component.html",
+		"/home/rolf/Development/survey-tool/src/index.html",
+		"/home/rolf/Development/survey-tool/src/app/app.component.css",
+		"/home/rolf/Development/adventskalender-2016/i18n/de.json",
+		"/home/rolf/Development/adventskalender-2016/i18n/en.json",
+		"/home/rolf/Development/adventskalender-2016/webpack.config.js",
+		"/home/rolf/Development/adventskalender-2016/package.json",
+		"/home/rolf/Development/adventskalender-2016/node_modules/jquery.i18n/src/jquery.i18n.js",
+		"/home/rolf/Development/adventskalender-2016/node_modules/jquery.i18n/package.json",
+		"/home/rolf/Development/adventskalender-2016/src/entry.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cookie",
+			"main",
+			"center",
+			"float"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "survey-tool-api.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
