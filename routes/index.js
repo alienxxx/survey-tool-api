@@ -11,9 +11,7 @@ router.get('/questions', function(req, res, next) {
 	  	db.collection('questions').find().toArray(function (err, result) {
 		    if (err) throw err 
 
-			res
-			.append('Access-Control-Allow-Origin','http://localhost:4200')
-			.json(result);
+			res.json(result);
 	  	})
   	},
   	function(err) { //promise rejected
@@ -22,13 +20,13 @@ router.get('/questions', function(req, res, next) {
 });
 
 /* POST an answer */
-router.post('/answers/:questionId', function(req, res, next) {
+router.post('/answers', function(req, res, next) {
 	dbPromise.then( function(db) {
-		db.collection('answers').insert( {'questionId': req.params.questionId, 'answer': req.body.answer}, function (err, result) {
+//		db.collection('answers').insert( {'questionId': req.params.questionId, 'answer': req.body.answer}, function (err, result) {
+		db.collection('answers').insertMany( req.body, function (err, result) {
 	    	if (err) throw err
 
-	    	res
-			.sendStatus(200);
+	    	res.sendStatus(200);
 	    })
 	},
 	function(err) { //promise rejected
