@@ -34,4 +34,18 @@ router.post('/answers', function(req, res, next) {
 	});
 });
 
+/* GET all answers */
+router.get('/answers', function(req, res, next) {
+	dbPromise.then( function(db) {
+		db.collection('answers').find().toArray(function (err, result) {
+	    	if (err) throw err
+
+	    	res.json(result);
+	    })
+	},
+	function(err) { //promise rejected
+		throw err
+	});
+});
+
 module.exports = router;
