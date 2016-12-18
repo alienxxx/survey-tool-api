@@ -8,7 +8,7 @@ var dbPromise = MongoClient.connect('mongodb://localhost:27017/survey-tool');
 
 /* GET all departments */
 // TODO: select only departments for this user
-router.get('/departments', function(req, res, next) {
+router.get('/', function(req, res, next) {
 	dbPromise.then( function(db) {
 	  	db.collection('departments').find({'members':'rhaynberg'},{'name':1}).toArray(function (err, result) {
 		    if (err) throw err 
@@ -22,7 +22,7 @@ router.get('/departments', function(req, res, next) {
 });
 
 /* GET one department */
-router.get('/departments/:id', function(req, res, next) {
+router.get('/:id', function(req, res, next) {
 	var oid = new ObjectId(req.params.id);
 
 	dbPromise.then( function(db) {
@@ -39,7 +39,7 @@ router.get('/departments/:id', function(req, res, next) {
 
 /* GET all questions */
 // TODO: select only questsions for this department
-router.get('/departments/:id/questions', function(req, res, next) {
+router.get('/:id/questions', function(req, res, next) {
 	var oid = new ObjectId(req.params.id);
 
 	dbPromise.then( function(db) {
@@ -55,7 +55,7 @@ router.get('/departments/:id/questions', function(req, res, next) {
 });
 
 /* UPDATE the department's answers */
-router.put('/departments/:id/answers', function(req, res, next) {
+router.put('/:id/answers', function(req, res, next) {
 	var oid = new ObjectId(req.params.id);
 
 	dbPromise.then( function(db) {
